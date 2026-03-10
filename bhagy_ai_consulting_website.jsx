@@ -4,7 +4,16 @@ export default function Website() {
       <header className="border-b border-emerald-100 bg-white/85 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
           <div>
-            <h1 className="text-xl font-semibold tracking-tight text-slate-950">Fabel Analytics</h1>
+            <div className="flex items-center gap-3">
+              <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" className="rounded-md">
+                <rect x="0" y="0" width="36" height="36" rx="6" fill="#10B981" />
+                <text x="9" y="24" fontSize="16" fontWeight="700" fill="white" fontFamily="Arial">F</text>
+                <rect x="22" y="20" width="2" height="6" fill="white" />
+                <rect x="26" y="16" width="2" height="10" fill="white" />
+                <rect x="30" y="12" width="2" height="14" fill="white" />
+              </svg>
+              <h1 className="text-xl font-semibold tracking-tight text-slate-950">Fabel Analytics</h1>
+            </div>
             <p className="text-sm text-emerald-700">AI &amp; Decision Intelligence for Startups</p>
           </div>
           <a
