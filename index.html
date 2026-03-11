@@ -1,27 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Fabel Analytics</title>
+
+<style>
+
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:linear-gradient(to bottom,#ecfdf5,#ffffff,#ecfeff);
+color:#0f172a;
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:20px;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 0;
+border-bottom:1px solid #d1fae5;
+}
+
+.brand{
+display:flex;
+flex-direction:column;
+}
+
+.brand-row{
+display:flex;
+align-items:center;
+gap:12px;
+}
+
+.logo{
+width:36px;
+height:36px;
+border-radius:8px;
+background:#10b981;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.tagline{
+font-size:13px;
+color:#047857;
+}
+
+.btn{
+background:#10b981;
+color:white;
+padding:10px 16px;
+border-radius:12px;
+text-decoration:none;
+font-weight:600;
+}
+
+.hero{
+display:grid;
+grid-template-columns:1.2fr 1fr;
+gap:40px;
+padding:60px 0;
+}
+
+.badge{
+display:inline-block;
+background:#ecfdf5;
+border:1px solid #a7f3d0;
+color:#047857;
+padding:8px 14px;
+border-radius:999px;
+margin-bottom:20px;
+font-size:14px;
+}
+
+h2{
+font-size:48px;
+line-height:1.1;
+margin-bottom:20px;
+}
+
+.lead{
+font-size:18px;
+color:#475569;
+margin-bottom:30px;
+line-height:1.6;
+}
+
+.button-row{
+display:flex;
+gap:12px;
+}
+
+.btn-outline{
+border:1px solid #a7f3d0;
+color:#047857;
+background:white;
+padding:10px 16px;
+border-radius:12px;
+text-decoration:none;
+font-weight:600;
+}
+
+.cards{
+display:grid;
+gap:20px;
+}
+
+.card{
+background:white;
+border:1px solid #d1fae5;
+border-radius:18px;
+padding:20px;
+box-shadow:0 6px 15px rgba(0,0,0,0.05);
+}
+
+section{
+padding:60px 0;
+}
+
+.section-label{
+color:#059669;
+font-size:12px;
+letter-spacing:2px;
+font-weight:700;
+margin-bottom:10px;
+}
+
+.section-title{
+font-size:32px;
+margin-bottom:10px;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+margin-top:20px;
+}
+
+.contact-box{
+background:white;
+border:1px solid #d1fae5;
+border-radius:24px;
+padding:30px;
+margin-top:20px;
+}
+
+.email{
+border:1px solid #a7f3d0;
+padding:12px 16px;
+display:inline-block;
+border-radius:10px;
+color:#047857;
+font-weight:600;
+}
+
+@media(max-width:900px){
+
+.hero{
+grid-template-columns:1fr;
+}
+
+.services{
+grid-template-columns:1fr;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
 <header>
-  <div class="container header-inner">
 
-    <div class="brand">
+<div class="brand">
 
-      <div class="brand-row">
+<div class="brand-row">
 
-        <div class="logo">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-            <rect x="4" y="10" width="3" height="10" rx="1" fill="white"/>
-            <rect x="10" y="6" width="3" height="14" rx="1" fill="white"/>
-            <rect x="16" y="3" width="3" height="17" rx="1" fill="white"/>
-          </svg>
-        </div>
+<div class="logo">
 
-        <h1>Fabel Analytics</h1>
+<!-- ORIGINAL ANALYTICS ICON -->
 
-      </div>
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none">
 
-      <p class="tagline">AI & Decision Intelligence for Startups</p>
+<rect x="4" y="10" width="3" height="10" rx="1" fill="white"/>
 
-    </div>
+<rect x="10" y="6" width="3" height="14" rx="1" fill="white"/>
 
-    <a class="btn" href="#contact">Book a Call</a>
+<rect x="16" y="3" width="3" height="17" rx="1" fill="white"/>
 
-  </div>
+</svg>
+
+</div>
+
+<h3>Fabel Analytics</h3>
+
+</div>
+
+<div class="tagline">
+AI & Decision Intelligence for Startups
+</div>
+
+</div>
+
+<a class="btn" href="#contact">Book a Call</a>
+
 </header>
+
+
+<section class="hero">
+
+<div>
+
+<div class="badge">
+Helping founders turn data into decisions
+</div>
+
+<h2>
+AI-powered analytics tools for startups,
+founders, and small businesses.
+</h2>
+
+<p class="lead">
+I build decision dashboards, predictive analytics tools, and lightweight AI apps that help businesses understand their data and act faster.
+</p>
+
+<div class="button-row">
+
+<a class="btn" href="#services">
+Explore Services
+</a>
+
+<a class="btn-outline" href="#contact">
+Contact Me
+</a>
+
+</div>
+
+</div>
+
+
+<div class="cards">
+
+<div class="card">
+<h3>AI Decision Dashboards</h3>
+<p>Clear, automated dashboards with business-ready insights.</p>
+</div>
+
+<div class="card">
+<h3>Predictive Analytics</h3>
+<p>Forecast sales, demand, or customer trends using your business data.</p>
+</div>
+
+<div class="card">
+<h3>Lightweight AI Apps</h3>
+<p>Simple tools your team or clients can use to upload data and get answers.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section id="services">
+
+<div class="section-label">SERVICES</div>
+
+<div class="section-title">
+What I help businesses build
+</div>
+
+<div class="services">
+
+<div class="card">
+<h3>Analytics Dashboards</h3>
+<p>Transform spreadsheet chaos into clean dashboards.</p>
+</div>
+
+<div class="card">
+<h3>Forecasting & Trends</h3>
+<p>Predict demand, revenue and trends.</p>
+</div>
+
+<div class="card">
+<h3>AI Insights Apps</h3>
+<p>Upload data and receive instant AI insights.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section id="contact">
+
+<div class="section-label">CONTACT</div>
+
+<div class="section-title">
+Let's talk about your data
+</div>
+
+<div class="contact-box">
+
+<p>
+If you're a startup founder or small business looking to turn data into insights, let's talk.
+</p>
+
+<br>
+
+<div class="email">
+fabel.notes@gmail.com
+</div>
+
+</div>
+
+</section>
+
+
+</div>
+
+</body>
+</html>
